@@ -9,7 +9,7 @@ public class Application {
 	 */
 	public static void main(String[] args)
 	{
-		System.out.println("Creating a tree of height "+ args[0]+".");
+		System.out.println("Creating a tree of height 5.");
 		Tree aTree=new Tree();//Creates a tree with root
 		Node root=aTree.generatePracticeTree(5);
 		DepthFirstSearch aSearch=new DepthFirstSearch();
